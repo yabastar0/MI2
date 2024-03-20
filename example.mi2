@@ -1,0 +1,48 @@
+_G.drums = {
+    {
+        {
+            note = "snare",
+            pitch = 4,
+            volume = 0.5
+        }
+    },
+    {
+        {
+            note = "snare",
+            pitch = 4,
+            volume = 0.5
+        }
+    },
+    {
+        {
+            note = "snare",
+            pitch = 4,
+            volume = 0.5
+        }
+    },
+    {
+        {
+            note = "hat",
+            pitch = 4,
+            volume = 0.5
+        },
+        {
+            note = "iron_xylophone",
+            pitch = 4,
+            volume = 0.1
+        }
+    }
+}
+
+new({
+    repeatTime = 16,
+    sleepTime = 0.2,
+    {
+        note = "guitar"
+    },
+    {
+        note = "drum" -- does the drum cycle
+    }
+})
+
+_G.drums = nil
