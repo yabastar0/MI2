@@ -1,0 +1,61 @@
+new({
+    sleepTime = 0.4,
+    repeatTime = 2,
+    {
+        note = "xylophone",
+        pitch = 1
+    }
+})
+
+new({
+    sleepTime = 0.2,
+    repeatTime = 2,
+    {
+        note = "xylophone",
+        pitch = 3
+    }
+})
+
+new({
+    sleepTime = 0.4,
+    repeatTime = 1,
+    {
+        note = "xylophone",
+        pitch = 2
+    }
+})
+
+new({
+    sleepTime = 0.2,
+    repeatTime = 1,
+    {
+        note = "xylophone",
+        pitch = 1
+    }
+})
+
+new({
+    sleepTime = 0.2,
+    repeatTime = 1,
+    {
+        note = "xylophone",
+        pitch = 3
+    }
+})
+
+new({
+    sleepTime = 0.2,
+    repeatTime = 1,
+    {
+        note = "xylophone",
+        pitch = 3
+    }
+})
+
+new({
+    sleepTime = 0.2,
+    repeatTime = 1,
+    {
+        note = "bit",
+    }
+})
